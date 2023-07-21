@@ -22,11 +22,12 @@ function About() {
         </div>
       </div>
       <div
-        className="bg-black bg-opacity-75 bg-cover bg-50%_50% bg-no-repeat flex flex-col mb-24"
+        className="bg-black bg-opacity-75 bg-cover bg-50%_50% bg-no-repeat flex flex-col mb-12"
         style={{ backgroundImage: `url(${background})` }}
       ></div>
-      <div className=" text-5xl  font-bold ">Mission</div>
-      <p>
+     <section >
+     <div className="mx-8 leading-relaxed text-5xl  font-bold ">Mission</div>
+      <p className="mx-8 leading-relaxed">
         We strive to promote collaboration, innovation, and best practices
         within the DevOps industry in Nairobi. Our mission is to create a
         supportive and inclusive community that values diversity and fosters
@@ -38,16 +39,16 @@ function About() {
         collaboration, and aim to make a positive impact on the industry as a
         whole.
       </p>
-      <div className=" text-5xl  font-bold ">Vision</div>
-      <p>
+      <div className="mx-8 leading-relaxed text-5xl  font-bold ">Vision</div>
+      <p className="mx-8 leading-relaxed">
         Our vision is to be a leading DevOps community in Nairobi, driving
         innovation and empowering professionals to excel in their careers.
       </p>
-      <div className="text-5xl  font-bold ">Objectives</div>
+      <div className="mx-8 leading-relaxed text-5xl  font-bold ">Objectives</div>
 
-      <ol className="list-decimal pl-10">
+      <ol className=" mb-6 mx-8 leading-relaxed list-decimal pl-10">
         <li>
-          {" "}
+          
           Fostering a collaborative community of DevOps professionals in Nairobi
           and surrounding areas.
         </li>
@@ -78,7 +79,7 @@ function About() {
           of their background or identity.
         </li>
         <li>
-          {" "}
+        
           Recognizing and celebrating the achievements of members and
           organizations in the DevOps community, and to highlight their
           contributions to the industry.
@@ -89,6 +90,7 @@ function About() {
           industry.
         </li>
       </ol>
+     </section>
 
       <section className="bg-[#0c2c44] text-white">
         <div className="container px-4 py-16 mx-auto space-y-8 lg:max-w-3xl">
